@@ -2,9 +2,10 @@
 layout: base.liquid
 ---
 
-# Welcome to my site!
+# I'm making upgrades to my site!
 
-Now to brag, but it's pretty great.
+For the old website, visit [(hiteshkishoredas.github.io)].
+This new website will take sometime to get built as I'm still the ropes of static site generators.
 
 {% for post in collections.posts reversed %}
   <a href="{{ post.url }}">
